@@ -1,3 +1,4 @@
+    /* dia 1 */
 :root {
     --text-color: #667085;
     --main-color: #8E2424;
@@ -136,6 +137,7 @@ body {
 
 }
 
+    /* dia 2 */
 .section1 {
    display: flex;
    flex-direction: column;
@@ -187,5 +189,55 @@ body {
 
     text-align: center;
 
+    color: var(--text-color);
+}
+
+    /* dia 3 */
+.container-metricas {
+    height: 288px;
+    
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    padding: 0px 0px 96px;
+    gap: 32px;
+    margin: 28px 56px;
+}
+
+.container-metricas h1 {
+    width: 280px;
+    height: 72px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 5;
+    font-size: 55px;
+    line-height: 72px;
+    color: var(--main-color);
+    letter-spacing: -0.02em;
+}
+
+.container-metricas span {
+    width: 280px;
+    height: 28px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 6;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+    letter-spacing: -0.02em;
+}
+
+.container-metricas p {
+    width: 280px;
+    height: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 4;
+    font-size: 15px;
+    line-height: 150%;
     color: var(--text-color);
 }
