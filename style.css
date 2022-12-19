@@ -1,4 +1,5 @@
     /* dia 1 */
+    
 :root {
     --text-color: #667085;
     --main-color: #8E2424;
@@ -16,8 +17,6 @@ body {
     background: #FFF;
 }
 
-/* NavBar */
-
 .navbar nav {
     display: flex;
     flex-direction: row;
@@ -27,11 +26,8 @@ body {
     width: auto;
     height: 80px;
     margin: 28px 56px;
-    /* margin-left: 112px; */
-    /* margin-right: 112px;
-    margin-top: 28px;
-    margin-bottom: 28px; */
 } 
+
 .div-logo {
     display: flex;
     flex-direction: row;
@@ -47,7 +43,6 @@ body {
 #logo {
     width: 27px;
     height: 26.99px;
-    
 }
 
 #logo-texto {
@@ -62,6 +57,7 @@ body {
 
     color: #3A404E;
 }
+
 .div-botoes {
     display: flex;
     flex-direction: row;
@@ -73,6 +69,7 @@ body {
     height: 32px;
     margin-left: 119px;
 }
+
 .nav-botoes {
     font-family: 'Inter';
     font-style: normal;
@@ -103,13 +100,11 @@ body {
     gap: 30px;
 }
     
-
 #entrar {
     flex: none;
     order: 0;
     flex-grow: 0;
     
-    /*text color*/
     color: var(--text-color);
 }
 
@@ -130,27 +125,22 @@ body {
     background: var(--main-color);
     border: 1px solid var(--main-color);
 
-    /*box shadow*/
     box-shadow: 0px 1px 2px
         rgba(16, 24, 40, 0.05);
     border-radius: 8px;
-
 }
 
     /* dia 2 */
+
 .section1 {
    display: flex;
    flex-direction: column;
    align-items: center;
    padding: 96px 0px;
    gap: 24px;
-
-   /* margin-top: 96px; */
-
 }
 
 #textoSection1 {
-    /* width: 20px; */
     height: 24px;
 
     font-family: 'Inter';
@@ -193,6 +183,7 @@ body {
 }
 
     /* dia 3 */
+
 .container-metricas {
     height: 288px;
     
@@ -243,6 +234,7 @@ body {
 }
 
     /* dia 4 */
+
 .banner {
     display: flex;
     flex-direction: column;
@@ -266,14 +258,14 @@ body {
     
     color: #101828;
 }
+
 #containerBanner {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    
-
 }
+
 #divVagas {
     width: 125px;
     height: 28px;
@@ -286,8 +278,6 @@ body {
 
     background: rgba(142, 36, 36, 0.05);
     border-radius: 16px;
-
-
 }
 
 #textoBanner {
@@ -316,7 +306,6 @@ body {
     align-items: flex-start;
     padding: 0px;
     gap: 32px;
-
 }
 .titulo-area {
     font-family: 'Inter';
@@ -366,9 +355,6 @@ body {
 }
 
 .informacoes span {
-
-    
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -380,6 +366,7 @@ body {
 }
 
     /* dia 6 */
+
 .depoimentos {
     display: flex;
     flex-direction: column;
@@ -400,9 +387,8 @@ body {
 
     background: rgba(196, 25, 25, 0.03);
     border-radius: 16px;
-
-
 }
+
 .text-depoimentos {
     font-family: 'Inter';
     font-style: normal;
@@ -433,8 +419,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-
-    /* color: #101828; */
 }
 
 #profissao-colaborador {
@@ -447,4 +431,106 @@ body {
     text-align: center;
 
     color: var(--text-color);
+}
+
+    /* dia 7 */
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0px;
+    gap: 32px;
+
+    background: #F9FAFB;;
+}
+
+.footer-fonts {
+    font-family: 'Inter';
+    font-style: normal;
+    align-items: center;
+}
+
+#titulo-footer {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    text-align: center;
+
+    letter-spacing: -0.02em;
+
+    color: #101828;
+}
+
+#footer-span1 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: var(--text-color);
+}
+
+#footer-email {
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 14px 12px 16px;
+    gap: 8px;
+    
+    border: 1px solid #d5d0dd;
+    box-shadow: 0px 1px 2px 
+    rgba (16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+
+#footer-email ::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;  
+}
+
+.footer-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 8px;
+}
+
+.cadastrar-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 8px;
+    
+    background-color: var(--main-color);
+    border: 1px solid --main-color;
+    box-shadow: 0px 1px 2px
+    rgba (16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+
+.cadastrar-footer span {
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 20px;
+
+    color: #fff;
+} 
+
+#footer-span2 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    
+    display: flex;
+    align-items: center;
+
+    color: #98A2B3;
 }
