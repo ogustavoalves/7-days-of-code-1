@@ -158,7 +158,7 @@ body {
 
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 6;
+    font-weight: 600;
     font-size: 48px;
     line-height: 60px;
 
@@ -201,7 +201,7 @@ body {
 
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 5;
+    font-weight: 500;
     font-size: 55px;
     line-height: 72px;
     color: var(--main-color);
@@ -214,7 +214,7 @@ body {
 
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 6;
+    font-weight: 600;
     font-size: 18px;
     line-height: 28px;
     color: #101828;
@@ -227,7 +227,7 @@ body {
 
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 4;
+    font-weight: 400;
     font-size: 15px;
     line-height: 150%;
     color: var(--text-color);
@@ -250,7 +250,7 @@ body {
 
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 6;
+    font-weight: 600;
     font-size: 36px;
     line-height: 44px;
 
