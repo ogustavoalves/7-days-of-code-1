@@ -4,22 +4,22 @@
 # Resultados
 <p>Veja as capturas de tela do projeto finalizado:</p>
 <div align="center">
-  <p>Cabeçalho</p>
-  <img src="_docs/print_1.JPG" alt="print-dia-1" name="dia_1" width=600px>
-  <p>Seção "Quem Somos"</p>
-  <img src="_docs/print_9.JPG" alt="print-dia-2" name="dia_2" width=600px>
-  <p>Seção Métricas</p>
-  <img src="_docs/print_2.JPG" alt="print-dia-3" name="dia_3" width=600px>
-  <p>Seção com Banner</p>
-  <img src="_docs/print_3.JPG" alt="print-dia-4.1" name="dia_4" width=600px>
-  <img src="_docs/print_4.JPG" alt="print-dia-4.2" name="dia_4" width=600px>
-  <p>Seção de Vagas Abertas</p>
-  <img src="_docs/print_5.JPG" alt="print-dia-5" name="dia_5" width=600px>
-  <img src="_docs/print_6.JPG" alt="print-dia-5" name="dia_5" width=600px>
-  <p>Seção Depoimentos</p>
-  <img src="_docs/print_7.JPG" alt="print-dia-6" name="dia_6" width=600px>
-  <p>Footer</p>
-  <img src="_docs/print_8.JPG" alt="print-dia-7" name="dia_7" width=600px>
+  <p name="dia_1">Cabeçalho</p>
+  <img src="_docs/print_1.JPG" alt="print-dia-1" width=600px>
+  <p name="dia_2" >Seção "Quem Somos"</p>
+  <img src="_docs/print_9.JPG" alt="print-dia-2" width=600px>
+  <p name="dia_3">Seção Métricas</p>
+  <img src="_docs/print_2.JPG" alt="print-dia-3" width=600px>
+  <p name="dia_4">Seção com Banner</p>
+  <img src="_docs/print_3.JPG" alt="print-dia-4.1"  width=600px>
+  <img src="_docs/print_4.JPG" alt="print-dia-4.2" width=600px>
+  <p name="dia_5">Seção de Vagas Abertas</p>
+  <img src="_docs/print_5.JPG" alt="print-dia-5" width=600px>
+  <img src="_docs/print_6.JPG" alt="print-dia-5" width=600px>
+  <p name="dia_6">Seção Depoimentos</p>
+  <img src="_docs/print_7.JPG" alt="print-dia-6" width=600px>
+  <p name="dia_7">Footer</p>
+  <img src="_docs/print_8.JPG" alt="print-dia-7" width=600px>
 </div>
 
 # Processo
